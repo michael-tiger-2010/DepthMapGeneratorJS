@@ -35,7 +35,7 @@
     let left = document.querySelector('#stereoImagesToDepthMap #left');
     let right = document.querySelector('#stereoImagesToDepthMap #right');
     let canvas = document.querySelector('#outputCanvas');
-    setInterval(() => {
+    //setInterval(() => {
         imagesToDepthMap(left,right,canvas);
-    }, 500);
+    //}, 500);
 })()
